@@ -3,3 +3,6 @@ pandas==2.1.4
 plotly==5.9.0
 scikit-learn==1.5.2
 joblib==1.2.0
+setuptools>=57.5.0
+wheel>=0.36.2
+cython>=0.29.24
