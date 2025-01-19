@@ -220,7 +220,7 @@ elif page == "Predictive Model":
         else:
             st.success("✅ This customer is **not likely to churn**.")
 
-    # Expandable Section for Model Information
+    # Model Information
     with st.expander("📊 Model Details"):
         st.write("This model uses a Gradient Boosting Classifier trained on customer churn data.")
         st.markdown("#### Key Features:")
